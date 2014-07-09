@@ -7,7 +7,7 @@
 //
 
 #import "threeViewController.h"
-
+#import "fourViewController.h"
 @interface threeViewController ()
 
 @end
@@ -60,5 +60,30 @@
     [self dismissViewControllerAnimated:YES completion:^{
         
     }];
+}
+- (IBAction)nextAction:(id)sender {
+    
+    //1.storyboard中定义某个独立newViewController（无segue跳转关系）的 identifier
+    static  NSString *controllerId =@"fourViewController";
+    //2.获取UIStoryboard对象
+    UIStoryboard *story = [UIStoryboard  storyboardWithName:@"indedview"   bundle:nil];
+   fourViewController  *nvc = [story instantiateViewControllerWithIdentifier:controllerId];
+   nvc.data=@"hi";
+    
+    [self presentViewController:nvc animated:YES completion:^{
+        
+    }];
+    //3.从storyboard取得newViewCtroller对象，通过Identifier区分
+    
+//    
+//    //4.对newViewController进行压栈实现tableview跳转到newTableview
+//    [ [self navigationController] pushViewController:nvc   animated:YES ];
+//    if([self navigationController] != nil)
+//        NSLog(@"self.navigationController is not nil");
+//    else {
+//        NSLog(@"self.navigationController is nil");
+//    }
+//    
+//    
 }
 @end

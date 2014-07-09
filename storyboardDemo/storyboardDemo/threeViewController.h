@@ -13,5 +13,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *titleLable;
 @property(nonatomic,strong)NSString * name;
 @property(nonatomic,strong)UserData * user;
+- (IBAction)nextAction:(id)sender;
 
 @end

@@ -26,6 +26,9 @@
 		E3BFA66E196CEACA00A73A32 /* threeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BFA66D196CEACA00A73A32 /* threeViewController.m */; };
 		E3BFA671196CFE6300A73A32 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BFA670196CFE6300A73A32 /* UserData.m */; };
 		E3D497DA196D1E22008F8FEE /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D497D9196D1E22008F8FEE /* MyNavigationController.m */; };
+		E3D4985E196D2D6D008F8FEE /* indedview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D4985D196D2D6D008F8FEE /* indedview.storyboard */; };
+		E3D49861196D2DA9008F8FEE /* fourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D49860196D2DA9008F8FEE /* fourViewController.m */; };
+		E3D49864196D2DD7008F8FEE /* fiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D49863196D2DD7008F8FEE /* fiveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,11 @@
 		E3BFA670196CFE6300A73A32 /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
 		E3D497D8196D1E22008F8FEE /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
 		E3D497D9196D1E22008F8FEE /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		E3D4985D196D2D6D008F8FEE /* indedview.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = indedview.storyboard; sourceTree = "<group>"; };
+		E3D4985F196D2DA9008F8FEE /* fourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourViewController.h; sourceTree = "<group>"; };
+		E3D49860196D2DA9008F8FEE /* fourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourViewController.m; sourceTree = "<group>"; };
+		E3D49862196D2DD7008F8FEE /* fiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fiveViewController.h; sourceTree = "<group>"; };
+		E3D49863196D2DD7008F8FEE /* fiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fiveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +140,7 @@
 				E3D497D9196D1E22008F8FEE /* MyNavigationController.m */,
 				E3BFA641196CE8C400A73A32 /* AppDelegate.m */,
 				E3BFA643196CE8C400A73A32 /* Main.storyboard */,
+				E3D4985D196D2D6D008F8FEE /* indedview.storyboard */,
 				E3BFA646196CE8C400A73A32 /* ViewController.h */,
 				E3BFA647196CE8C400A73A32 /* ViewController.m */,
 				E3BFA666196CE92600A73A32 /* oneViewController.h */,
@@ -140,6 +149,10 @@
 				E3BFA66A196CEA2F00A73A32 /* twoViewController.m */,
 				E3BFA66C196CEACA00A73A32 /* threeViewController.h */,
 				E3BFA66D196CEACA00A73A32 /* threeViewController.m */,
+				E3D4985F196D2DA9008F8FEE /* fourViewController.h */,
+				E3D49860196D2DA9008F8FEE /* fourViewController.m */,
+				E3D49862196D2DD7008F8FEE /* fiveViewController.h */,
+				E3D49863196D2DD7008F8FEE /* fiveViewController.m */,
 				E3BFA649196CE8C400A73A32 /* Images.xcassets */,
 				E3BFA638196CE8C400A73A32 /* Supporting Files */,
 				E3BFA66F196CFE6300A73A32 /* UserData.h */,
@@ -255,6 +268,7 @@
 			files = (
 				E3BFA64A196CE8C400A73A32 /* Images.xcassets in Resources */,
 				E3BFA63C196CE8C400A73A32 /* InfoPlist.strings in Resources */,
+				E3D4985E196D2D6D008F8FEE /* indedview.storyboard in Resources */,
 				E3BFA645196CE8C400A73A32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +292,9 @@
 				E3BFA642196CE8C400A73A32 /* AppDelegate.m in Sources */,
 				E3BFA671196CFE6300A73A32 /* UserData.m in Sources */,
 				E3BFA63E196CE8C400A73A32 /* main.m in Sources */,
+				E3D49864196D2DD7008F8FEE /* fiveViewController.m in Sources */,
 				E3BFA66E196CEACA00A73A32 /* threeViewController.m in Sources */,
+				E3D49861196D2DA9008F8FEE /* fourViewController.m in Sources */,
 				E3D497DA196D1E22008F8FEE /* MyNavigationController.m in Sources */,
 				E3BFA668196CE92600A73A32 /* oneViewController.m in Sources */,
 				E3BFA66B196CEA2F00A73A32 /* twoViewController.m in Sources */,

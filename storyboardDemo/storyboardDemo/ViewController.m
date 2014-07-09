@@ -35,6 +35,15 @@
 
 - (IBAction)twoAction:(id)sender {
     [self performSegueWithIdentifier:@"twoView" sender:self];
+//    
+//    static  NSString *controllerId =@"fourViewController";
+//    //2.获取UIStoryboard对象
+//    UIStoryboard *story = [UIStoryboard  storyboardWithName:@"indedview"   bundle:nil];
+//    fourViewController  *nvc = [story instantiateViewControllerWithIdentifier:controllerId];
+//    nvc.data=@"hi";
+    
+    
+    
 }
 
 - (IBAction)threeAction:(id)sender {
