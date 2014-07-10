@@ -15,10 +15,10 @@
       [super viewDidLoad];
   
 }
+
 - (IBAction)nextAction:(id)sender {
     
     [self performSegueWithIdentifier:@"threeview" sender:self];
-
 }
 
 @end

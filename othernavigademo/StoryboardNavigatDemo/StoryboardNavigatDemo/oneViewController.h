@@ -9,5 +9,6 @@
 #import "BaseViewController.h"
 
 @interface oneViewController : BaseViewController
+@property (weak, nonatomic) IBOutlet UILabel *tilelable;
 
 @end

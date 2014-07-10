@@ -93,7 +93,21 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l0V-r1-tje" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="915" y="477"/>
+            <point key="canvasLocation" x="929" y="447"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lWr-RW-ay6">
+            <objects>
+                <viewController id="sD3-7K-xO2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="17M-4C-l3X">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="In0-9z-GHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1471" y="-615"/>
         </scene>
         <!--Three View Controller-->
         <scene sceneID="vta-kY-DoM">
@@ -156,7 +170,7 @@
                                     <action selector="nextAction:" destination="uTc-kU-GbI" eventType="touchUpInside" id="KVw-uY-UUm"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C8d-bD-CBU">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C8d-bD-CBU">
                                 <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -178,12 +192,13 @@
                     <tabBarItem key="tabBarItem" title="Item" id="dNz-ED-lFs"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="tilelable" destination="C8d-bD-CBU" id="hGB-yk-5Gy"/>
                         <segue destination="1Rs-qo-Scm" kind="push" identifier="threeview" id="TDl-j7-hNz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8HY-3W-R9a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="943" y="-255"/>
+            <point key="canvasLocation" x="987" y="-615"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
