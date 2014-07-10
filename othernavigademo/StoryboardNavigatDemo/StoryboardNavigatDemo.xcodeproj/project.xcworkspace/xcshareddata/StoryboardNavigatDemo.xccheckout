@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>44ECC96A-5ED2-475C-AE35-BEBE129D3209</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StoryboardNavigatDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FC710111-C892-4249-AAA0-0CB92528321E</key>
+		<string>https://github.com/yaodonghai/learningcodesProject.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StoryboardNavigatDemo/StoryboardNavigatDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FC710111-C892-4249-AAA0-0CB92528321E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yaodonghai/learningcodesProject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FC710111-C892-4249-AAA0-0CB92528321E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FC710111-C892-4249-AAA0-0CB92528321E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>learningcodesProject</string>
+		</dict>
+	</array>
+</dict>
+</plist>
