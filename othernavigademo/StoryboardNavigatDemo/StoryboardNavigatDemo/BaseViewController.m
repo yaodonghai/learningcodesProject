@@ -37,12 +37,14 @@
         if (self.navigationController) {
             int viewControllerscount=[self.navigationController.viewControllers count];
             float y=-20;
+            float h=self.view.frame.size.height;
             if (viewControllerscount==1) {
                 y=y-44;
             }
-            self.view.bounds = CGRectMake(0, y, self.view.frame.size.width, self.view.frame.size.height );
+            self.view.bounds = CGRectMake(0, y, self.view.frame.size.width,h );
         }else{
              self.view.bounds = CGRectMake(0, -20, self.view.frame.size.width, self.view.frame.size.height );
+
             [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
 
         }
