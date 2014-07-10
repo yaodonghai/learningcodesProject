@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "JMTabView.h"
-
+#import "CustomTabItem.h"
+#import "CustomSelectionView.h"
+#import "CustomBackgroundLayer.h"
 
 /**
  最外层的容器

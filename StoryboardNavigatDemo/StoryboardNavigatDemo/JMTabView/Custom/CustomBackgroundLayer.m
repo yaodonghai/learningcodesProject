@@ -2,7 +2,7 @@
 
 #import "CustomBackgroundLayer.h"
 #import "UIColor+Hex.h"
-#import "global_defines.h"
+//#import "global_defines.h"
 #import "ColorUtil.h"
 @implementation CustomBackgroundLayer
 
@@ -29,7 +29,7 @@
         //设置剪辑
         imageLayer.masksToBounds = YES;
         
-       UIImage * brimage= [ColorUtil imageWithColor:RGB(249, 249, 249) andSize:CGSizeMake(320, 44)];
+       UIImage * brimage= [ColorUtil imageWithColor:[UIColor grayColor] andSize:CGSizeMake(320, 44)];
         
         //加载图片
         imageLayer.contents = (id)brimage.CGImage;

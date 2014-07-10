@@ -28,13 +28,13 @@
     
     if (version>=7.0 ) { // iOS7
         
-        navBarBg = @"navBG64";
+        navBarBg = @"顶部导航栏.png";
         
         navBar.tintColor = [UIColor whiteColor];
         
     } else { // 非iOS7
         
-        navBarBg = @"navBG";
+        navBarBg = @"顶部导航栏.png";
         
         [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleBlackOpaque;
         
@@ -51,6 +51,8 @@
                                      UITextAttributeTextColor : [UIColor whiteColor]
                                      
                                      }];
+    
+ 
     
 }
 
@@ -70,9 +72,9 @@
 
 {
     
-    return UIStatusBarStyleDefault;//黑色
+    //return UIStatusBarStyleDefault;//黑色
     
-    // return UIStatusBarStyleLightContent;
+     return UIStatusBarStyleLightContent;
     
 }
 @end

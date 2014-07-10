@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface BaseViewController : UIViewController
-
+#define IPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+@interface BaseViewController : UIViewController<UIGestureRecognizerDelegate>{
+    
+}
+- (void)createBackgroundImage;
+- (void)addSwipeGestureForGoingBack;
 @end

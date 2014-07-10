@@ -9,5 +9,6 @@
 #import "BaseViewController.h"
 
 @interface threeViewController : BaseViewController
+- (IBAction)backAction:(id)sender;
 
 @end

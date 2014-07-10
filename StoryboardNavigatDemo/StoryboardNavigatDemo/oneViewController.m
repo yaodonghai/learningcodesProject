@@ -9,5 +9,10 @@
 #import "oneViewController.h"
 
 @implementation oneViewController
+- (IBAction)nextAction:(id)sender {
+    
+    [self performSegueWithIdentifier:@"threeview" sender:self];
+
+}
 
 @end

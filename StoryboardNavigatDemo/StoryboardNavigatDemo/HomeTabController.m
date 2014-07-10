@@ -148,36 +148,35 @@
 
 ///自定义tabBar
 -(void)creatUI{
-//    self.view.backgroundColor=[UIColor whiteColor];
-//  
-//     tabitemTitles=[[NSArray alloc]initWithObjects:@"活动",@"推荐",@"专题", @"个人",nil];
-//      self.navigationItem.title=tabitemTitles[0];
-//    //添加自定义tabbar条
-//     tabView = [[JMTabView alloc] initWithFrame:CGRectMake(0, self.view.bounds.size.height - 44., [Globle shareInstance].globleWidth, 44.)];
-//    [tabView setViewtoplineColor:[UIColor grayColor]];
-//    tabView.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleWidth;
-//    [tabView setDelegate:self];
-//    CGFloat tabItemWidth = tabView.frame.size.width / 4;
-//    CGSize tabItemPadding = CGSizeMake(tabView.frame.size.width/4/2, 0);
-//    
-//    
-//    for (int i=0; i<tabitemTitles.count; i++) {
-//        
-//        NSString * imagenamenormal=[NSString stringWithFormat:@"按钮-未按_0%d.png",(i+2)];
-//       NSString * imagenamehightlight=[NSString stringWithFormat:@"按钮-按下_0%d.png",(i+2)];
-//        
-//        CustomTabItem * tabItem = [CustomTabItem tabItemWithTitle:tabitemTitles[i] icon:[UIImage imageNamed:imagenamenormal] alternateIcon:[UIImage imageNamed:imagenamehightlight]];
-//        tabItem.customWidth = tabItemWidth;
-//        tabItem.padding = tabItemPadding;
-//        
-//        [tabView addTabItem:tabItem];
-//       
-//    }
-//    [tabView setSelectionView:[CustomSelectionView createSelectionView]];
-//    [tabView setItemSpacing:1.];
-//    [tabView setBackgroundLayer:[[CustomBackgroundLayer alloc] init]];
-//    [tabView setSelectedIndex:0];
-//    [self.view addSubview:tabView];
+    self.view.backgroundColor=[UIColor whiteColor];
+  
+     tabitemTitles=[[NSArray alloc]initWithObjects:@"活动",@"推荐",nil];
+      self.navigationItem.title=tabitemTitles[0];
+    //添加自定义tabbar条
+     tabView = [[JMTabView alloc] initWithFrame:CGRectMake(0, self.view.bounds.size.height - 44., self.view.frame.size.width, 44.)];
+    tabView.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleWidth;
+    [tabView setDelegate:self];
+    CGFloat tabItemWidth = tabView.frame.size.width / 2;
+    CGSize tabItemPadding = CGSizeMake(tabView.frame.size.width/2/2, 0);
+    
+    
+    for (int i=0; i<tabitemTitles.count; i++) {
+        
+        NSString * imagenamenormal=[NSString stringWithFormat:@"按钮-未按_0%d.png",(i+2)];
+       NSString * imagenamehightlight=[NSString stringWithFormat:@"按钮-按下_0%d.png",(i+2)];
+        
+        CustomTabItem * tabItem = [CustomTabItem tabItemWithTitle:tabitemTitles[i] icon:[UIImage imageNamed:imagenamenormal] alternateIcon:[UIImage imageNamed:imagenamehightlight]];
+        tabItem.customWidth = tabItemWidth;
+        tabItem.padding = tabItemPadding;
+        
+        [tabView addTabItem:tabItem];
+       
+    }
+    [tabView setSelectionView:[CustomSelectionView createSelectionView]];
+    [tabView setItemSpacing:1.];
+    [tabView setBackgroundLayer:[[CustomBackgroundLayer alloc] init]];
+    [tabView setSelectedIndex:0];
+    [self.view addSubview:tabView];
     
 }
 

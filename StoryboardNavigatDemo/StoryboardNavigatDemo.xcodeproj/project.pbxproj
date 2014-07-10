@@ -40,6 +40,31 @@
 		E3D49856196D29B0008F8FEE /* oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D49855196D29B0008F8FEE /* oneViewController.m */; };
 		E3D49859196D29C3008F8FEE /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D49858196D29C3008F8FEE /* twoViewController.m */; };
 		E3D4985C196D2C40008F8FEE /* threeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4985B196D2C40008F8FEE /* threeViewController.m */; };
+		E3D4987D196D34CF008F8FEE /* 80活动-未按下.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D49866196D34CF008F8FEE /* 80活动-未按下.png */; };
+		E3D4987E196D34CF008F8FEE /* 按钮-按下_02.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D49867196D34CF008F8FEE /* 按钮-按下_02.png */; };
+		E3D4987F196D34CF008F8FEE /* 按钮-按下_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D49868196D34CF008F8FEE /* 按钮-按下_02@2x.png */; };
+		E3D49880196D34CF008F8FEE /* 按钮-按下_03.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D49869196D34CF008F8FEE /* 按钮-按下_03.png */; };
+		E3D49881196D34CF008F8FEE /* 按钮-按下_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D4986A196D34CF008F8FEE /* 按钮-按下_03@2x.png */; };
+		E3D49882196D34CF008F8FEE /* 按钮-按下_04.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D4986B196D34CF008F8FEE /* 按钮-按下_04.png */; };
+		E3D49883196D34CF008F8FEE /* 按钮-按下_04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D4986C196D34CF008F8FEE /* 按钮-按下_04@2x.png */; };
+		E3D49884196D34CF008F8FEE /* 按钮-按下_05.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D4986D196D34CF008F8FEE /* 按钮-按下_05.png */; };
+		E3D49885196D34CF008F8FEE /* 按钮-按下_05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D4986E196D34CF008F8FEE /* 按钮-按下_05@2x.png */; };
+		E3D49886196D34CF008F8FEE /* 按钮-未按_02.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D4986F196D34CF008F8FEE /* 按钮-未按_02.png */; };
+		E3D49887196D34CF008F8FEE /* 按钮-未按_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D49870196D34CF008F8FEE /* 按钮-未按_02@2x.png */; };
+		E3D49888196D34CF008F8FEE /* 按钮-未按_03.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D49871196D34CF008F8FEE /* 按钮-未按_03.png */; };
+		E3D49889196D34CF008F8FEE /* 按钮-未按_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D49872196D34CF008F8FEE /* 按钮-未按_03@2x.png */; };
+		E3D4988A196D34CF008F8FEE /* 按钮-未按_04.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D49873196D34CF008F8FEE /* 按钮-未按_04.png */; };
+		E3D4988B196D34CF008F8FEE /* 按钮-未按_04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D49874196D34CF008F8FEE /* 按钮-未按_04@2x.png */; };
+		E3D4988C196D34CF008F8FEE /* 按钮-未按_05.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D49875196D34CF008F8FEE /* 按钮-未按_05.png */; };
+		E3D4988D196D34CF008F8FEE /* 按钮-未按_05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D49876196D34CF008F8FEE /* 按钮-未按_05@2x.png */; };
+		E3D4988E196D34CF008F8FEE /* 底部导航栏.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D49877196D34CF008F8FEE /* 底部导航栏.png */; };
+		E3D4988F196D34CF008F8FEE /* 底部导航栏@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D49878196D34CF008F8FEE /* 底部导航栏@2x.png */; };
+		E3D49890196D34CF008F8FEE /* 顶部导航栏.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D49879196D34CF008F8FEE /* 顶部导航栏.png */; };
+		E3D49891196D34CF008F8FEE /* 顶部导航栏@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D4987A196D34CF008F8FEE /* 顶部导航栏@2x.png */; };
+		E3D49892196D34CF008F8FEE /* 返回.@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D4987B196D34CF008F8FEE /* 返回.@2x.png */; };
+		E3D49893196D34CF008F8FEE /* 返回.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D4987C196D34CF008F8FEE /* 返回.png */; };
+		E3D4989B196D35A9008F8FEE /* ArrayUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D49896196D35A9008F8FEE /* ArrayUtil.m */; };
+		E3D4989C196D35A9008F8FEE /* ColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D49898196D35A9008F8FEE /* ColorUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +137,33 @@
 		E3D49858196D29C3008F8FEE /* twoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
 		E3D4985A196D2C40008F8FEE /* threeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threeViewController.h; sourceTree = "<group>"; };
 		E3D4985B196D2C40008F8FEE /* threeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeViewController.m; sourceTree = "<group>"; };
+		E3D49866196D34CF008F8FEE /* 80活动-未按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "80活动-未按下.png"; sourceTree = "<group>"; };
+		E3D49867196D34CF008F8FEE /* 按钮-按下_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-按下_02.png"; sourceTree = "<group>"; };
+		E3D49868196D34CF008F8FEE /* 按钮-按下_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-按下_02@2x.png"; sourceTree = "<group>"; };
+		E3D49869196D34CF008F8FEE /* 按钮-按下_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-按下_03.png"; sourceTree = "<group>"; };
+		E3D4986A196D34CF008F8FEE /* 按钮-按下_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-按下_03@2x.png"; sourceTree = "<group>"; };
+		E3D4986B196D34CF008F8FEE /* 按钮-按下_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-按下_04.png"; sourceTree = "<group>"; };
+		E3D4986C196D34CF008F8FEE /* 按钮-按下_04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-按下_04@2x.png"; sourceTree = "<group>"; };
+		E3D4986D196D34CF008F8FEE /* 按钮-按下_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-按下_05.png"; sourceTree = "<group>"; };
+		E3D4986E196D34CF008F8FEE /* 按钮-按下_05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-按下_05@2x.png"; sourceTree = "<group>"; };
+		E3D4986F196D34CF008F8FEE /* 按钮-未按_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-未按_02.png"; sourceTree = "<group>"; };
+		E3D49870196D34CF008F8FEE /* 按钮-未按_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-未按_02@2x.png"; sourceTree = "<group>"; };
+		E3D49871196D34CF008F8FEE /* 按钮-未按_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-未按_03.png"; sourceTree = "<group>"; };
+		E3D49872196D34CF008F8FEE /* 按钮-未按_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-未按_03@2x.png"; sourceTree = "<group>"; };
+		E3D49873196D34CF008F8FEE /* 按钮-未按_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-未按_04.png"; sourceTree = "<group>"; };
+		E3D49874196D34CF008F8FEE /* 按钮-未按_04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-未按_04@2x.png"; sourceTree = "<group>"; };
+		E3D49875196D34CF008F8FEE /* 按钮-未按_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-未按_05.png"; sourceTree = "<group>"; };
+		E3D49876196D34CF008F8FEE /* 按钮-未按_05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-未按_05@2x.png"; sourceTree = "<group>"; };
+		E3D49877196D34CF008F8FEE /* 底部导航栏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航栏.png"; sourceTree = "<group>"; };
+		E3D49878196D34CF008F8FEE /* 底部导航栏@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部导航栏@2x.png"; sourceTree = "<group>"; };
+		E3D49879196D34CF008F8FEE /* 顶部导航栏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "顶部导航栏.png"; sourceTree = "<group>"; };
+		E3D4987A196D34CF008F8FEE /* 顶部导航栏@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "顶部导航栏@2x.png"; sourceTree = "<group>"; };
+		E3D4987B196D34CF008F8FEE /* 返回.@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回.@2x.png"; sourceTree = "<group>"; };
+		E3D4987C196D34CF008F8FEE /* 返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回.png"; sourceTree = "<group>"; };
+		E3D49895196D35A9008F8FEE /* ArrayUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayUtil.h; sourceTree = "<group>"; };
+		E3D49896196D35A9008F8FEE /* ArrayUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayUtil.m; sourceTree = "<group>"; };
+		E3D49897196D35A9008F8FEE /* ColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtil.h; sourceTree = "<group>"; };
+		E3D49898196D35A9008F8FEE /* ColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +223,8 @@
 		E3D497ED196D2544008F8FEE /* StoryboardNavigatDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E3D49894196D35A9008F8FEE /* utils */,
+				E3D49865196D34A8008F8FEE /* images */,
 				E3D49822196D2852008F8FEE /* JMTabView */,
 				E3D4981F196D27AF008F8FEE /* HomeTabController.h */,
 				E3D49820196D27AF008F8FEE /* HomeTabController.m */,
@@ -299,6 +353,47 @@
 			path = Custom;
 			sourceTree = "<group>";
 		};
+		E3D49865196D34A8008F8FEE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E3D49866196D34CF008F8FEE /* 80活动-未按下.png */,
+				E3D49867196D34CF008F8FEE /* 按钮-按下_02.png */,
+				E3D49868196D34CF008F8FEE /* 按钮-按下_02@2x.png */,
+				E3D49869196D34CF008F8FEE /* 按钮-按下_03.png */,
+				E3D4986A196D34CF008F8FEE /* 按钮-按下_03@2x.png */,
+				E3D4986B196D34CF008F8FEE /* 按钮-按下_04.png */,
+				E3D4986C196D34CF008F8FEE /* 按钮-按下_04@2x.png */,
+				E3D4986D196D34CF008F8FEE /* 按钮-按下_05.png */,
+				E3D4986E196D34CF008F8FEE /* 按钮-按下_05@2x.png */,
+				E3D4986F196D34CF008F8FEE /* 按钮-未按_02.png */,
+				E3D49870196D34CF008F8FEE /* 按钮-未按_02@2x.png */,
+				E3D49871196D34CF008F8FEE /* 按钮-未按_03.png */,
+				E3D49872196D34CF008F8FEE /* 按钮-未按_03@2x.png */,
+				E3D49873196D34CF008F8FEE /* 按钮-未按_04.png */,
+				E3D49874196D34CF008F8FEE /* 按钮-未按_04@2x.png */,
+				E3D49875196D34CF008F8FEE /* 按钮-未按_05.png */,
+				E3D49876196D34CF008F8FEE /* 按钮-未按_05@2x.png */,
+				E3D49877196D34CF008F8FEE /* 底部导航栏.png */,
+				E3D49878196D34CF008F8FEE /* 底部导航栏@2x.png */,
+				E3D49879196D34CF008F8FEE /* 顶部导航栏.png */,
+				E3D4987A196D34CF008F8FEE /* 顶部导航栏@2x.png */,
+				E3D4987B196D34CF008F8FEE /* 返回.@2x.png */,
+				E3D4987C196D34CF008F8FEE /* 返回.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		E3D49894196D35A9008F8FEE /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E3D49895196D35A9008F8FEE /* ArrayUtil.h */,
+				E3D49896196D35A9008F8FEE /* ArrayUtil.m */,
+				E3D49897196D35A9008F8FEE /* ColorUtil.h */,
+				E3D49898196D35A9008F8FEE /* ColorUtil.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -376,8 +471,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3D49800196D2544008F8FEE /* Images.xcassets in Resources */,
+				E3D49883196D34CF008F8FEE /* 按钮-按下_04@2x.png in Resources */,
+				E3D4987D196D34CF008F8FEE /* 80活动-未按下.png in Resources */,
+				E3D4988D196D34CF008F8FEE /* 按钮-未按_05@2x.png in Resources */,
+				E3D49891196D34CF008F8FEE /* 顶部导航栏@2x.png in Resources */,
 				E3D497F2196D2544008F8FEE /* InfoPlist.strings in Resources */,
+				E3D49886196D34CF008F8FEE /* 按钮-未按_02.png in Resources */,
+				E3D49889196D34CF008F8FEE /* 按钮-未按_03@2x.png in Resources */,
+				E3D49885196D34CF008F8FEE /* 按钮-按下_05@2x.png in Resources */,
 				E3D497FB196D2544008F8FEE /* Main.storyboard in Resources */,
+				E3D49880196D34CF008F8FEE /* 按钮-按下_03.png in Resources */,
+				E3D49888196D34CF008F8FEE /* 按钮-未按_03.png in Resources */,
+				E3D49887196D34CF008F8FEE /* 按钮-未按_02@2x.png in Resources */,
+				E3D49893196D34CF008F8FEE /* 返回.png in Resources */,
+				E3D4987E196D34CF008F8FEE /* 按钮-按下_02.png in Resources */,
+				E3D49882196D34CF008F8FEE /* 按钮-按下_04.png in Resources */,
+				E3D49890196D34CF008F8FEE /* 顶部导航栏.png in Resources */,
+				E3D49892196D34CF008F8FEE /* 返回.@2x.png in Resources */,
+				E3D4988C196D34CF008F8FEE /* 按钮-未按_05.png in Resources */,
+				E3D49881196D34CF008F8FEE /* 按钮-按下_03@2x.png in Resources */,
+				E3D4988B196D34CF008F8FEE /* 按钮-未按_04@2x.png in Resources */,
+				E3D4988E196D34CF008F8FEE /* 底部导航栏.png in Resources */,
+				E3D4987F196D34CF008F8FEE /* 按钮-按下_02@2x.png in Resources */,
+				E3D4988F196D34CF008F8FEE /* 底部导航栏@2x.png in Resources */,
+				E3D49884196D34CF008F8FEE /* 按钮-按下_05.png in Resources */,
+				E3D4988A196D34CF008F8FEE /* 按钮-未按_04.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +523,9 @@
 				E3D49849196D2852008F8FEE /* JMTabContainer.m in Sources */,
 				E3D49856196D29B0008F8FEE /* oneViewController.m in Sources */,
 				E3D49847196D2852008F8FEE /* UIView+Size.m in Sources */,
+				E3D4989B196D35A9008F8FEE /* ArrayUtil.m in Sources */,
 				E3D497F8196D2544008F8FEE /* AppDelegate.m in Sources */,
+				E3D4989C196D35A9008F8FEE /* ColorUtil.m in Sources */,
 				E3D4984A196D2852008F8FEE /* JMTabItem.m in Sources */,
 				E3D497F4196D2544008F8FEE /* main.m in Sources */,
 				E3D4984E196D2852008F8FEE /* CustomNoiseBackgroundView.m in Sources */,
