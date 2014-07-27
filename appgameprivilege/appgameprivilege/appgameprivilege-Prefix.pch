@@ -1,0 +1,65 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+#define kXMPPHost @"www.aiktv.co"//主机名
+#define API_BASE_URL(_URL_) [NSURL URLWithString:[@"http://www.aiktv.co:8080/skapi/v2/" stringByAppendingString:_URL_]] //接口的基础地址
+#define kXMPP_Domain @"www.aiktv.co" //OpenFire配置的IM服务器名
+
+#define g_App ((AppDelegate*)[[UIApplication sharedApplication] delegate])
+#define JX_SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height-20
+#define JX_SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define DATA(X)	[X dataUsingEncoding:NSUTF8StringEncoding]
+#define RSTRING(X) NSStringFromCGRect(X)
+#define COOKBOOK_PURPLE_COLOR	[UIColor colorWithRed:0.20392f green:0.19607f blue:0.61176f alpha:1.0f]
+#define BARBUTTON(TITLE, SELECTOR) 	[[[UIBarButtonItem alloc] initWithTitle:TITLE style:UIBarButtonItemStylePlain target:self action:SELECTOR] autorelease]
+#define IMGBARBUTTON(IMAGE, SELECTOR) [[[UIBarButtonItem alloc] initWithImage:IMAGE style:UIBarButtonItemStylePlain target:self action:SELECTOR] autorelease]
+#define SYSBARBUTTON(ITEM, SELECTOR) [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:ITEM target:self action:SELECTOR] autorelease]
+#define CUSTOMBARBUTTON(VIEW) [[[UIBarButtonItem alloc] initWithCustomView:VIEW] autorelease]
+#define MY_USER_ID [[NSUserDefaults standardUserDefaults]objectForKey:kMY_USER_ID]
+
+
+#define kMY_USER_ID @"myUserId"
+#define kMY_USER_PASSWORD @"myUserPassword"
+#define kMY_USER_NICKNAME @"myUserNickname"
+#define kMY_USER_Head @"myUserHead"
+#define kMY_USER_LoginName @"myUserLoginName"
+//#define kXMPPmyJID @"myXmppJid"
+//#define kXMPPmyPassword @"myXmppPassword"
+#define kXMPPNewMsgNotifaction @"xmppNewMsgNotifaction"
+#define kXMPPNewFriendNotifaction @"xmppNewFriendNotifaction"
+#define kLoginNotifaction @"kLoginNotifaction"
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "NSObject+Subscripts.h"
+#import <QuartzCore/QuartzCore.h>
+#import "Photo.h"
+
+#endif
+
+#ifdef DEBUG
+#define LOG(...) NSLog(__VA_ARGS__);
+#define LOG_METHOD NSLog(@"%s", __func__);
+#define IOS7_SYSTEM   ([[[UIDevice currentDevice] systemVersion] floatValue]>=7.0)
+
+#else
+#define LOG(...);
+#define LOG_METHOD ;
+#endif
